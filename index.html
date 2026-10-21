@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nginx Server visual | #buildwithCloud-Messenger</title>
+<link rel="icon" href="assets/logo.svg">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="top">
+  <img src="assets/logo.svg" alt="" width="28" height="28">
+  <h1>Nginx Server visual</h1>
+  <span class="tag">#buildwithCloud-Messenger</span>
+  <nav class="links">
+    <a href="https://www.linkedin.com/in/ulhas-narwade-aws-certified-devops" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="https://github.com/Cloud-Messenger" target="_blank" rel="noopener">GitHub</a>
+    <button id="theme" aria-label="Toggle dark or light mode">Light mode</button>
+  </nav>
+</header>
+<div class="app">
+  <aside class="side">
+    <ol id="steps"></ol>
+    <div class="ctl">
+      <button id="play">Pause</button>
+      <button id="reset">Reset</button>
+    </div>
+    <div class="bar"><i id="prog"></i></div>
+  </aside>
+  <main>
+    <section class="card">
+      <svg id="dia" viewBox="0 0 940 250" role="img" aria-label="Request path from browser to NGINX on EC2"></svg>
+    </section>
+    <section class="two">
+      <div class="card cap">
+        <h2 id="ct"></h2>
+        <p><b>Simple:</b> <span id="cs"></span></p>
+        <p><b>Technical:</b> <span id="cx"></span></p>
+        <pre id="term" aria-live="polite"></pre>
+      </div>
+      <div class="card pv">
+        <div class="chrome"><i></i><i></i><i></i><span id="url">about:blank</span></div>
+        <div id="site" class="site off">
+          <div class="nav"><b class="brand">STREAMLY</b><span>Home</span><span>Series</span><span>Films</span><span>My List</span><u>Sign In</u></div>
+          <div class="hero">
+            <h3>Unlimited films, series and more.</h3>
+            <p>Watch anywhere. Cancel anytime.</p>
+            <button class="cta">Get Started</button>
+          </div>
+          <h4>Trending Now</h4>
+          <div class="row" id="row"></div>
+          <small class="disc">Original demo page for learning. Not affiliated with Netflix.</small>
+        </div>
+        <div id="ov" class="ov">Not served yet</div>
+      </div>
+    </section>
+  </main>
+</div>
+<footer>Built with ♥ by Cloud-Messenger · #buildwithCloud-Messenger</footer>
+<script src="js/app.js"></script>
+</body>
+</html>
